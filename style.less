@@ -1,0 +1,561 @@
+@infoColor : rgba(69, 77, 86, 1);
+@infoTitleColor: rgba(24, 24, 24, 1);
+@infoFz16: 16px;
+@infoFz14: 14px;
+@infoFz12: 12px;
+@infoFz24: 24px;
+
+@pd40: 40px;
+
+.home {
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+
+  .pt-40 {
+    padding-top: @pd40;
+  }
+
+  .infoTitle {
+    font-size: 16px;
+    color: rgba(24, 24, 24, 1);
+  }
+
+  .pageBody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .centerBody {
+      width: 1200px;
+      display: flex;
+      // justify-content: center;
+    }
+  }
+
+  .part-column {
+    flex-direction: column;
+  }
+
+
+
+
+
+
+  .trait {
+    height: 216px;
+
+
+    .trait-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .trait-item {
+        .box {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+        }
+
+        img {
+          width: 74px;
+          height: 74px;
+        }
+
+        .title {
+          font-size: @infoFz18;
+          color: @infoTitleColor;
+          margin-bottom: 4px;
+          font-weight: 400;
+          margin-top: 13px;
+        }
+
+        .info {
+          color: @infoColor;
+          font-size: @infoFz14;
+          font-weight: 400;
+
+        }
+      }
+    }
+  }
+
+  .product-advantage {
+
+    .centerBody {
+      padding-top: 40px;
+
+      .content {
+        margin-top: 40px;
+
+
+        .info {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 18px;
+          margin-bottom: 40px;
+
+          .info-box {
+            width: 240px;
+            padding-left: 24px;
+            width: 2;
+            text-align: left;
+
+            .title {
+              font-size: @infoFz24;
+              color: @infoTitleColor;
+              font-weight: 700;
+              margin-bottom: 2px;
+            }
+
+            .titleMin {
+              color: @infoTitleColor;
+              font-size: @infoFz16;
+              margin-bottom: 6px;
+              font-weight: 500;
+              font-family: "Microsoft YaHei";
+            }
+
+            .text {
+              color: @infoColor;
+              font-size: @infoFz14;
+              line-height: 22px;
+              list-style: initial;
+              margin-left: 20px;
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+  .product-advantage-relation {
+    height: 450px;
+    width: 100%;
+    align-items: flex-end;
+    background-image: url('@/assets/homeImg/home_advantage_bg@2x.png');
+    background-size: cover;
+
+    .relation {
+      height: 354px;
+    }
+  }
+
+  .Introduction {
+    padding-bottom: 24px;
+    .content {
+      .partTitle {
+        margin-bottom: 24px;
+      }
+    }
+    /deep/ .el-carousel__item {
+      background-color: #fff;
+    }
+    /deep/.el-tabs {
+      background-color: #fff;
+    }
+    /deep/ .el-tabs__nav {
+      width: 100%;
+
+      .el-tabs__active-bar {
+        width: 33% !important;
+
+      }
+
+      .el-tabs__item {
+        width: 33% !important;
+        font-weight: 700;
+        font-size: 18px;
+      }
+      .is-active {
+        color: #007DFF;
+      }
+    }
+
+    .tab {
+      // .lbBox {
+      //   background-image: attr(url) ;
+      // }
+    }
+
+  }
+
+  .line-img {
+    height: 80px;
+  }
+
+  .liveApp {
+    height: 720px;
+    background-color: rgba(246, 248, 251, 1);
+
+    .content {
+      .info {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+
+        .left {
+          width: 600px;
+
+          .left-item {
+            width: 468px;
+            height: 88px;
+            text-align: left;
+            padding: 18px;
+            background: no-repeat;
+            background-color: rgba(255, 255, 255, 1);
+            background-size: contain;
+            margin: 16px 0;
+            cursor: pointer;
+          }
+
+          .title {
+            color: @infoTitleColor;
+            font-size: 20px;
+          }
+
+          .titleActive {
+            color: rgba(255, 255, 255, 1);
+          }
+
+          .item-info {
+            font-size: @infoFz14;
+            color: @infoColor;
+          }
+
+          .itemInfoActive {
+            opacity: 0.800000011920929;
+            color: rgba(255, 255, 255, 1);
+          }
+
+          .default {}
+
+        }
+
+        .videos {
+          width: 600px;
+        }
+      }
+    }
+
+  }
+
+  .power {
+    height: 710px;
+
+    .content {
+      .powerList {
+        width: 100%;
+        text-align: left;
+        display: flex;
+
+        .el-zoom-in-bottom-enter-active,
+        .el-zoom-in-bottom-leave-active {
+          transition-duration: 0.6s;
+        }
+
+        .el-zoom-in-bottom-enter,
+        .el-zoom-in-bottom-leave-to
+
+        /* .fade-leave-active below version 2.1.8 */
+          {
+          transition-duration: 0.6s;
+        }
+
+        .l-box {
+          display: flex;
+          position: relative;
+          width: 390px;
+          height: 490px;
+          background-image: url('@/assets/homeImg/home_capability_bg1@2x.png');
+          background-size: contain;
+        }
+
+        .r-list {
+          display: flex;
+          width: calc(1200px - 390px);
+          flex-wrap: wrap;
+
+          .box {
+            position: relative;
+            margin-left: 16px;
+            margin-bottom: 16px;
+            width: 389px;
+            height: 237px;
+            background: no-repeat;
+            background-size: contain;
+          }
+        }
+
+        .info {
+          width: 390px;
+          height: 72px;
+          opacity: 1;
+          background: rgba(255, 255, 255, 0.7);
+          padding: 16px 0 0 12px;
+        }
+
+        .itemBox {
+          display: flex;
+          align-items: end;
+          width: 390px;
+          position: relative;
+
+
+          .info {
+            width: 100%;
+          }
+
+          .title {
+            font-size: 18px;
+            color: rgba(24, 24, 24, 1);
+          }
+
+          .text {
+            color: rgba(138, 152, 168, 1);
+            font-size: 14px;
+          }
+        }
+
+        .introduceBox {
+          position: absolute;
+          z-index: 10;
+          top: 0;
+          left: 0;
+          padding: 12px;
+          height: 100%;
+          background: rgba(0, 125, 255, 0.95);
+          backdrop-filter: blur(10px);
+          li {
+            margin-bottom: 8px;
+          }
+
+          .title {
+            color: rgba(255, 255, 255, 1);
+            font-size: 18px;
+            line-height: 26px;
+          }
+
+          .text {
+            opacity: 0.800000011920929;
+            color: rgba(255, 255, 255, 1);
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  .advantage {
+    height: 428px;
+    background-image: url('@/assets/homeImg/home_advantage_bg@2x.png');
+
+    .content {
+      padding-top: 40px;
+
+      /deep/ .partTitle {
+        .title {
+          color: rgba(255, 255, 255, 1) !important;
+        }
+
+        .info {
+          color: rgba(255, 255, 255, 0.7) !important;
+        }
+      }
+
+      .infoBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        margin-top: 40px;
+
+        .item {
+          width: 228px;
+          height: 228px;
+          border-radius: 4px;
+          opacity: 1;
+          border: 1px solid rgba(16, 24, 37, 1);
+          background: rgba(23, 31, 45, 1);
+
+          .box {
+            display: flex;
+            justify-content: center;
+            margin-top: 58px;
+            margin-bottom: 24px;
+          }
+
+          .title {
+            color: rgba(255, 255, 255, 1);
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+
+  }
+
+  .milestone {
+    height: 540px;
+
+    background-image: url('@/assets/homeImg/home_milestone_bg@2x.png');
+  }
+
+  .milestone-2 {
+    height: 572px;
+
+    .content {
+      .l-prize {
+        width: 458px;
+        height: 492px;
+        background-image: url('@/assets/homeImg/home_zfb_bg@2x.png');
+        background-size: contain;
+        color: rgba(255, 255, 255, 1);
+        font-size: 40px;
+        text-align: left;
+        padding: 32px 0 0 32px;
+      }
+
+      .r-detail {
+        width: 742px;
+        height: 492px;
+        border-radius: 4px;
+        opacity: 1;
+        border: 1px solid rgba(240, 240, 240, 1);
+        background: rgba(255, 255, 255, 1);
+        padding-top: 24px;
+        text-align: left;
+        background: no-repeat;
+        background-image: url('@/assets/homeImg/home_zfb_bg_logo@2x.png');
+        background-size: 340px 377px;
+        background-position: right bottom;
+
+
+
+        .item {
+          width: 214px;
+          padding: 16px 0 0 16px;
+          height: 132px;
+          border-radius: 4px;
+          margin-left: 24px;
+          margin-bottom: 24px;
+          display: inline-block;
+          opacity: 1;
+          border: 1px solid rgba(220, 223, 230, 1);
+
+          .title {
+            display: inline-block;
+            opacity: 1;
+            color: rgba(24, 24, 24, 1);
+            font-size: 18px;
+            margin-left: 12px;
+            line-height: 44px;
+            font-family: "Microsoft YaHei";
+          }
+
+          img {
+            display: inline-block;
+            width: 44px;
+            height: 44px;
+          }
+
+          .minTitle {
+            color: #262C33;
+            font-size: 16px;
+            font-weight: 400;
+            height: 24px;
+          }
+
+          .info {
+            color: rgba(69, 77, 86, 1);
+            font-size: 14px;
+            font-weight: 400;
+            height: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  .milestone-3 {
+    height: 600px;
+    background-image: url('@/assets/homeImg/home_certificate_bg@2x.png');
+    background-size: contain;
+
+    .content {
+      margin-top: 171px;
+      height: 389px;
+      padding-right: 40px;
+      padding-bottom: 40px;
+      border-radius: 4px;
+      opacity: 1;
+      position: relative;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 2px 12px 0px rgba(0, 0, 0, 0.05);
+      .certificate {
+        position: absolute;
+        width: 344px;
+        height: 495px;
+        left: 69px;
+        top: -139px;
+      }
+
+      .info {
+        width: 678px;
+        height: 114px;
+        margin-left: 482px;
+        margin-top: 109px;
+        text-align: left;
+
+        .title {
+          height: 32px;
+          opacity: 1;
+          color: rgba(24, 24, 24, 1);
+          font-size: 24px;
+          font-weight: 700;
+          margin-bottom: 16px;
+        }
+
+        .text {
+          font-size: 16px;
+          line-height: 24px;
+          color: rgba(69, 77, 86, 1);
+        }
+
+      }
+    }
+
+  }
+
+  .userAccept {
+    height: 538px;
+    background-image: url('@/assets/homeImg/customer_bg@2x.png');
+    background-size: contain;
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+
+      .imgbox {
+        width: 216px;
+        height: 110px;
+        border-radius: 4px;
+        margin: 12px;
+        opacity: 1;
+        border: 1px solid rgba(240, 240, 240, 1);
+        background: rgba(255, 255, 255, 1);
+
+      }
+    }
+
+  }
+
+
+
+}

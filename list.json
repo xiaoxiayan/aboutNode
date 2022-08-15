@@ -1,0 +1,168 @@
+{
+  "list": [
+    {
+      "img": "BLUCfzXwWaX.png",
+      "title": "强入口",
+      "info": "免安装  强通知  全域广播"
+    },
+    {
+      "img": "BLUCkpaWD2j.png",
+      "title": "一站式",
+      "info": "交流化 场景化 服务直达"
+    },
+    {
+      "img": "BLUCkpaWD2h.png",
+      "title": "新生态",
+      "info": "开放式 广连接 平台赋能"
+    },
+    {
+      "img": "BLUCkpaWD2i.png",
+      "title": "富媒体",
+      "info": "大容量 多样式  美观易用"
+    },
+    {
+      "img": "BLUCkpaWD2g.png",
+      "title": "高安全",
+      "info": "电信级 权威性 通信认证"
+    },
+    {
+      "img": "BLUCpfd5tUs.png",
+      "title": "智能化",
+      "info": "拟人化 多互动 智能决策"
+    }
+  ],
+  "productInfo": [
+    {
+      "title":  "5G消息",
+      "info": "预计0.5-1亿5G手机",
+      "infoList": ["多媒体卡片展示","按钮交互","5G消息互动"]
+    },
+    {
+      "title":  "5G阅信",
+      "info": "预计触达6亿手机智能终端",
+      "infoList": ["多媒体卡片展示", "按钮交互", "5G阅信互动"]
+    },
+    {
+      "title":  "5G视信",
+      "info": "可触达11亿手机智能终端",
+      "infoList": ["多媒体平铺展示","短链交互","H5信息跳转"]
+    },
+    {
+      "title":  "短信回落",
+      "info": "可触达13亿手机终端",
+      "infoList": ["短信文本", "短链交互","H5信息跳转"]
+    }
+  ],
+  "introduction" : {
+    "part1": ["BLUCuVffZx3.png", "BLUCzLiFGPC.png"],
+    "part2": ["BLUCzLiFGPD.png", "BLUCzLiFGPE.png"],
+    "part3": ["BLUCpfd5tUt.png", "BLUCuVffZx2.png"]
+  },
+  "Rdetail" : [
+    {
+      "title": "一等奖",
+      "minTitle": "南山政务服务",
+      "info": "便民利企一站式政务服务窗口"
+    },
+    {
+      "title": "二等奖",
+      "minTitle": "前海蛇口自贸区医院",
+      "info": "报告推送、在线诊疗便捷就医"
+    },
+    {
+      "title": "行业特别奖",
+      "minTitle": "ETCP智慧停车",
+      "info": "智慧停车新体验"
+    },
+    {
+      "title": "优秀创新奖",
+      "minTitle": "数字人民钱包",
+      "info": "便捷支付新方式,安全可靠"
+    },
+    {
+      "title": "优秀创新奖",
+      "minTitle": "平安产险",
+      "info": "VOLTE视频快速报案产险理赔"
+    },
+    {
+      "title": "优秀创新奖",
+      "minTitle": "自在威海",
+      "info": "忙入式5G消息，VR游威海"
+    },
+    {
+      "title": "优秀创新奖",
+      "minTitle": "陕西信合",
+      "info": "绽放杯5G智慧金融赛道"
+    }
+  ],
+  "advantage" : [
+    {
+      "title": "长期深耕行业消息",
+      "img": "BLUC3HDL2x1.png"
+    },
+    {
+      "title": "最全消息产品服务",
+      "img": "BLUC3HDL2x2.png"
+    },
+    {
+      "title": "RCS消息开拓先锋",
+      "img": "BLUBf50ScgC.png"
+    },
+    {
+      "title": "全国技术支持服务",
+      "img": "BLUC3HDL2x4.png"
+    },
+    {
+      "title": "行业高度认可",
+      "img": "BLUC87FujPD.png"
+    }
+  ],
+  "powerListIntroduce" : [
+    {
+      "title": "智能创作",
+      "text": "机器人无编码逻辑创作、智能推荐内容让营销事半功倍"
+    },
+    {
+      "title": "智能推荐",
+      "text": "海量行业模板紧跟热点，任你挑选。系统也可以根据模板特征自动推荐消息模板，让企业一秒捕获爆文灵感"
+    },
+    {
+      "title": "营销组件",
+      "text": "红包、卡券、大转盘等，拉新促活转化复购的好帮手"
+    },
+    {
+      "title": "模板转化",
+      "text": "提高覆盖率所需模板过多，使用自动转化功能帮助你自动转化，提高业务响应能力"
+    },
+    {
+      "title": "全景配置",
+      "text": "场景交互可视化编辑，业务逻辑一览无余，降低消息交互管理门槛"
+    },
+    {
+      "title": "海量模板",
+      "text": "红包、卡券、大转盘等，拉新促活转化复购的好帮手"
+    }
+
+  ],
+
+  "userAccpet": [
+    {"url": "BLUCWJSn9g8.png", "alt": "tencent"},
+    {"url": "BLUCb9VMq8H.png", "alt": "IQY"},
+    {"url": "BLUCb9VMq8I.png", "alt": "YOUKU"},
+    {"url": "BLUCb9VMq8J.png", "alt": "FC"},
+    {"url": "BLUCb9VMq8K.png", "alt": "ZTO"},
+    {"url": "BLUCfzXwWaT.png", "alt": "LOREAL"},
+    {"url": "BLUCfzXwWaU.png", "alt": "ESTEE"},
+    {"url": "BLUCfzXwWaV.png", "alt": "PD"},
+    {"url": "BLUCfzXwWaW.png", "alt": "HEILAN"},
+    {"url": "BLUCRTQDTDu.png", "alt": "ZGPN"},
+    {"url": "BLUCWJSn9g3.png", "alt": "Bank of china"},
+    {"url": "BLUCWJSn9g4.png", "alt": "交通银行"},
+    {"url": "BLUCWJSn9g5.png", "alt": "南方基金"},
+    {"url": "BLUCWJSn9g6.png", "alt": "华夏银行"},
+    {"url": "BLUCWJSn9g7.png", "alt": "宁波银行"}
+  ]
+
+
+}
+
